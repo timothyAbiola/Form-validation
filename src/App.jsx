@@ -10,8 +10,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Index/>} />
-        <Route path="form" element={<FormikForm/>} />
+        <Route path="/" element={<FormikForm />} />
+        <Route path="form" element={<Index />} />
       </Routes>
     </>
   );
